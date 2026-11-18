@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ego-crm": {
+      "type": "http",
+      "url": "https://api.egocrm.com/mcp/",
+      "oauth": {
+        "clientId": "claude"
+      }
+    }
+  }
+}

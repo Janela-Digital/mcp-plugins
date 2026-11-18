@@ -1,0 +1,23 @@
+﻿{
+    "name":  "janeladigital-plugins",
+    "owner":  {
+                  "name":  "Janela Digital SA"
+              },
+    "plugins":  [
+                    {
+                        "name":  "casasapo",
+                        "source":  "./casasapo",
+                        "description":  "Search CasaSAPO listings in Portugal, view property details, contact advertisers, and create alerts."
+                    },
+                    {
+                        "name":  "supercasa",
+                        "source":  "./supercasa",
+                        "description":  "Pesquisa de imóveis em Portugal, detalhes, orientações, alertas e contacto autenticado."
+                    },
+                    {
+                        "name":  "egocrm",
+                        "source":  "./egocrm",
+                        "description":  "Consulte imóveis, contactos, leads, visitas, tarefas e notas do eGO CRM no Claude."
+                    }
+                ]
+}

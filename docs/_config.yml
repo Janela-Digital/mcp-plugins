@@ -1,0 +1,11 @@
+title: Janela Digital MCP connectors
+description: Documentation for the CasaSAPO, SUPERCASA and eGO CRM connectors.
+url: https://janela-digital.github.io
+baseurl: /mcp-plugins
+theme: jekyll-theme-primer
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      lang: en

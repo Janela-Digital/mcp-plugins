@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "casasapo": {
+      "type": "http",
+      "url": "https://casa.sapo.pt/mcp"
+    }
+  }
+}
