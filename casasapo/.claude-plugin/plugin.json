@@ -10,7 +10,7 @@
   "homepage": "https://casa.sapo.pt",
   "repository": "https://github.com/Janela-Digital/mcp-plugins",
   "documentationUrl": "https://janela-digital.github.io/mcp-plugins/casasapo/claude/",
-  "supportUrl": "https://casa.sapo.pt/en_gb/general/contact.php",
+  "supportUrl": "https://casa.sapo.pt/general/contacto.aspx",
   "icon": "./assets/icon-512.png",
   "privacyPolicyUrl": "https://casa.sapo.pt/politica-de-privacidade",
   "termsOfServiceUrl": "https://casa.sapo.pt/general/condicoes/condicoes_portal.aspx"
