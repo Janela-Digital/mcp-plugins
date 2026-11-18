@@ -8,6 +8,9 @@
     "url": "https://casa.sapo.pt"
   },
   "homepage": "https://casa.sapo.pt",
+  "repository": "https://github.com/Janela-Digital/mcp-plugins",
+  "documentationUrl": "https://janela-digital.github.io/mcp-plugins/casasapo/claude/",
+  "supportUrl": "https://casa.sapo.pt/en_gb/general/contact.php",
   "icon": "./assets/icon-512.png",
   "privacyPolicyUrl": "https://casa.sapo.pt/termos-e-condicoes",
   "termsOfServiceUrl": "https://casa.sapo.pt/termos-e-condicoes"

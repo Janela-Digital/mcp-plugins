@@ -8,6 +8,8 @@
     "url": "https://supercasa.pt"
   },
   "homepage": "https://supercasa.pt",
+  "repository": "https://github.com/Janela-Digital/mcp-plugins",
+  "documentationUrl": "https://janela-digital.github.io/mcp-plugins/supercasa/claude/",
   "icon": "./icon.png",
   "supportUrl": "https://supercasa.pt/contactos",
   "privacyPolicyUrl": "https://supercasa.pt/politica-privacidade",
