@@ -1,0 +1,14 @@
+{
+  "name": "casasapo",
+  "displayName": "CasaSAPO",
+  "version": "1.0.0",
+  "description": "Search CasaSAPO listings in Portugal, view property details, contact advertisers, and create alerts.",
+  "author": {
+    "name": "Janela Digital SA",
+    "url": "https://casa.sapo.pt"
+  },
+  "homepage": "https://casa.sapo.pt",
+  "icon": "./assets/icon-512.png",
+  "privacyPolicyUrl": "https://casa.sapo.pt/termos-e-condicoes",
+  "termsOfServiceUrl": "https://casa.sapo.pt/termos-e-condicoes"
+}

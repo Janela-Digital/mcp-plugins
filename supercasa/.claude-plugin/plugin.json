@@ -1,0 +1,16 @@
+{
+  "name": "supercasa",
+  "displayName": "SUPERCASA",
+  "version": "1.0.2",
+  "description": "Pesquisa de imóveis em Portugal, detalhes, orientações, alertas e contacto autenticado.",
+  "author": {
+    "name": "Janela Digital SA",
+    "url": "https://supercasa.pt"
+  },
+  "homepage": "https://supercasa.pt",
+  "icon": "./icon.png",
+  "supportUrl": "https://supercasa.pt/contactos",
+  "privacyPolicyUrl": "https://supercasa.pt/politica-privacidade",
+  "termsOfServiceUrl": "https://supercasa.pt/condicoes-utilizacao",
+  "keywords": ["imobiliario", "portugal", "supercasa", "mcp"]
+}

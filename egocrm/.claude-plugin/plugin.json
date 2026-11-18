@@ -1,0 +1,14 @@
+{
+  "name": "egocrm",
+  "displayName": "eGO CRM",
+  "version": "0.3.1",
+  "description": "Consulte imóveis, contactos, leads, visitas, tarefas e notas do eGO CRM no Claude.",
+  "author": {
+    "name": "Janela Digital SA"
+  },
+  "homepage": "https://www.egocrm.com/",
+  "supportUrl": "https://www.egocrm.com/contact-us",
+  "privacyPolicyUrl": "https://www.egocrm.com/privacy-policy",
+  "termsOfServiceUrl": "https://www.egocrm.com/terms-conditions",
+  "keywords": ["crm", "imobiliario", "ego", "mcp"]
+}

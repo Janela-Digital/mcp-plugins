@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title | escape }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/brand.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <div class="header-content">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Janela Digital documentation home">
+          <img src="{{ '/assets/images/janela-digital.png' | relative_url }}" alt="Janela Digital" width="300" height="50">
+        </a>
+        <div class="header-actions">
+            <nav class="connector-links" aria-label="Connectors">
+              {% assign connectors = 'casasapo,supercasa,egocrm' | split: ',' %}
+              {% assign platform = page.platform | default: 'chatgpt' %}
+              {% for connector in connectors %}
+                {% assign connector_url = '/' | append: connector | append: '/' | append: platform | append: '/' %}
+                <a href="{{ connector_url | relative_url }}"{% if page.connector == connector %} aria-current="page"{% endif %}>{% case connector %}{% when 'casasapo' %}CasaSAPO{% when 'supercasa' %}SUPERCASA{% when 'egocrm' %}eGO CRM{% endcase %}</a>
+              {% endfor %}
+            </nav>
+        </div>
+      </div>
+    </header>
+    <main id="content" class="container-lg px-3 my-5 markdown-body" tabindex="-1">
+      {% if page.connector %}
+        {% assign connector_path = '/' | append: page.connector | append: '/' %}
+        <nav class="platform-switch" aria-label="Platform">
+          <a href="{{ connector_path | append: 'claude/' | relative_url }}"{% if page.platform == 'claude' %} aria-current="page"{% endif %}>Claude</a>
+          <a href="{{ connector_path | append: 'chatgpt/' | relative_url }}"{% if page.platform == 'chatgpt' %} aria-current="page"{% endif %}>ChatGPT</a>
+        </nav>
+      {% endif %}
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <span>© Janela Digital SA</span>
+      <a href="{{ '/#support' | relative_url }}">Support and policies</a>
+    </footer>
+  </body>
+</html>
