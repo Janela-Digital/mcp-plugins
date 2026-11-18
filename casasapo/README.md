@@ -6,10 +6,6 @@ CasaSAPO helps you search property listings in Portugal and review listings retu
 
 Search properties for sale or rent by location and criteria, inspect a specific returned listing, contact its advertiser, and create search alerts. Contact and alert actions use your authenticated CasaSAPO account when required. Listing information is supplied by advertisers and is not independently verified by this plugin.
 
-## Requirements
-
-Claude must be able to reach `https://casa.sapo.pt/mcp`. Some actions require signing in to CasaSAPO and authorizing access. Availability of plugin installation and connector features depends on your Claude plan and organization settings.
-
 ## Example requests
 
 - Find apartments for sale in Lisbon under 300,000 euros.
