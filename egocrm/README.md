@@ -9,7 +9,7 @@ access to eGO records.
 - **MCP connector `ego-crm`** — a remote server at `https://api.egocrm.com/mcp/`
   that uses your eGO account for authentication (OAuth 2.0 with PKCE). Claude
   never sees your password.
-- **Skill `consultar-ego`** — guides Claude in using eGO tools, handling
+- **eGO CRM lookup skill** — guides Claude in using eGO tools, handling
   pagination, and answering in business terms.
 
 ## Getting started
